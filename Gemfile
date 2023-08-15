@@ -4,12 +4,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.2.2'
 
 gem 'bootsnap', require: false
+gem 'dotenv-rails'
+gem 'nokogiri'
 gem 'pg', '~> 1.1'
 gem 'pry-byebug'
 gem 'puma', '~> 5.0'
 gem 'rack-cors'
 gem 'rails', '~> 7.0.5'
 gem 'redis'
+gem 'selenium-webdriver'
 gem 'sidekiq'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
